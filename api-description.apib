@@ -1,0 +1,48 @@
+FORMAT: 1A
+
+# hosts
+
+Host is a simple API allowing consumers...
+
+## Host Collection [/host]
+
+### List All Host [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "nombre": "Host 1",
+                "cores": "1",
+                "memoria" : "2",
+                "disco" : "3"
+            },
+            {
+                "nombre": "Host 2",
+                "cores": "4",
+                "memoria" : "5",
+                "disco" : "6"
+            }
+        ]
+
+### Create a New Host [POST]
+
+You may create your own article using this action. It takes a JSON
+object containing...
+
++ Request (application/json)
+
+        {
+            "nombre": "Host 1",
+            "cores": "1",
+            "memoria" : "2",
+            "disco" : "3"
+        }
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+               "status":"created"
+            }
