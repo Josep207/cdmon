@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Test APP styles
+   ========================================================================== */
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+.content-header > h1{
+    font-size:30px;
+    font-weight: 600;
+    border-bottom: 1px solid #87898b;
+    padding-bottom: 4px;
+}
+
+.content-header>.breadcrumb {
+    float: left;
+    background: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding: 7px 5px;
+    position: absolute;
+    top: 60px;
+    left: 13px;
+    border-radius: 2px;
+}
+
+.header-address__img-logo{
+    height: 45px;
+    /* width: 150px; */
+    width: auto;
+    margin: 0 0px;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    margin-top:50px;
+}
+
+.logo-mini{
+    font-family: Lato, sans-serif;
+}
+
+.mt50{
+    margin-top:50px;
+}
+
