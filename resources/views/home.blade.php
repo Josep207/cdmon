@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <h1>Bienvenido al examen de Josep Cruz</h1>
                         
-                    <p>Este proyecto está realizado con Laravel.</p>
+                    <p>Este proyecto está realizado con Laravel. Para levantar el proyecto he utilizado "php -S localhost:8888 -t public", ya que le puerto 8000 lo tengo ocupado.</p>
                         
                     <p>Aquí explicaré brevemente el desarrollo de los dos ejercicios: </p>
 
