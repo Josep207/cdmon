@@ -1,12 +1,8 @@
 FROM ubuntu:latest
 
 MAINTAINER josepcruz josepcruz88@gmail.com
+RUN docker-php-ext-install pdo_mysql
+RUN a2enmod rewrite
 
-RUN apt-get -y update; \
-    apt-get -y upgrade; \
-    apt-get -y install apt-utils \
-    vim \
-    htop;
-RUN apt-get -y install dstat
-
-CMD ["bash"]
+ADD . /var/www
+ADD ./public /var/www/html
