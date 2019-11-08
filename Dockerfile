@@ -27,6 +27,4 @@ RUN  apt-get install -y libmcrypt-dev \
         && docker-php-ext-install pdo_mysql \
         && docker-php-ext-enable mcrypt
 
-RUN mv .env.prod .env
-
 RUN php artisan optimize
